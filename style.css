@@ -6,12 +6,17 @@ a {
   cursor: pointer;
 }
 
-/* Tooltip escondido */
-.tooltip {
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+}
+
+.tooltip-text {
   display: none;              /* escondido por padrão */
   position: absolute;
   background: yellow;         /* fundo bem visível */
-  color: black;               /* texto preto */
+  color: black;
   border: 1px solid black;
   padding: 8px;
   border-radius: 4px;
@@ -20,6 +25,12 @@ a {
   width: 250px;
   z-index: 9999;
 }
+
+/* Mostrar tooltip ao passar o mouse */
+.tooltip-container:hover .tooltip-text {
+  display: block;
+}
+
 
 /* Mostrar tooltip ao passar o mouse */
 a:hover .tooltip {
