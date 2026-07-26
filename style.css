@@ -5,9 +5,11 @@ a {
   margin: 20px;
   font-size: 16px;
   cursor: pointer;
+  display: inline-block;
 }
 
-a .tooltip {
+/* Tooltip escondido por padrão */
+.tooltip {
   visibility: hidden;
   opacity: 0;
   width: 300px;
@@ -18,24 +20,26 @@ a .tooltip {
   padding: 10px;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  top: 125%;   /* aparece abaixo do link */
   left: 50%;
   margin-left: -150px;
   transition: opacity 0.3s;
   font-size: 14px;
 }
 
-a .tooltip::after {
+/* Setinha apontando para cima */
+.tooltip::after {
   content: "";
   position: absolute;
-  top: 100%;
+  bottom: 100%; /* seta acima da caixa */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #333 transparent transparent transparent;
+  border-color: transparent transparent #333 transparent;
 }
 
+/* Mostrar tooltip ao passar o mouse */
 a:hover .tooltip {
   visibility: visible;
   opacity: 1;
