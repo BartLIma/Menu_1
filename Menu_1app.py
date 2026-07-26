@@ -34,7 +34,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown(
-    "<a class='menu-button blue' href='https://conrepass-frhucxskkdgmt2hxuq4kju.streamlit.app/' target='_blank'>📊 Transferências Discricionárias (convênios/Contrato de repasse)</a>",
+    "<a class='menu-button blue' href='https://conrepass-frhucxskkdgmt2hxuq4kju.streamlit.app/' target='_blank'>📊 Transferências Discricionárias (convênios/Contratos de repasses)</a>",
     unsafe_allow_html=True
 )
 st.markdown(
