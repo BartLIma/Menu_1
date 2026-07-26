@@ -3,7 +3,7 @@ import streamlit as st
 st.title("📂 Menu Principal - Programas")
 st.write("Selecione abaixo o programa que deseja abrir:")
 
-# CSS para estilizar os botões
+# CSS para estilizar os botões com fundo escuro e texto azul claro
 st.markdown(
     """
     <style>
@@ -15,11 +15,11 @@ st.markdown(
         font-weight: bold;
         text-decoration: none;
         border-radius: 6px;
-        color: white;
+        color: #cce5ff; /* azul claro para contraste */
     }
-    .green { background-color: #28a745; }
-    .blue { background-color: #007bff; }
-    .gray { background-color: #6c757d; }
+    .green { background-color: #155724; }  /* verde escuro */
+    .blue { background-color: #004085; }   /* azul escuro */
+    .gray { background-color: #343a40; }   /* cinza escuro */
     .menu-button:hover {
         opacity: 0.85;
     }
