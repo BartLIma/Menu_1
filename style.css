@@ -13,27 +13,33 @@ a {
   visibility: hidden;
   opacity: 0;
   width: 300px;
-  background-color: #333;
-  color: #fff;
+  background-color: #f9f9f9; /* fundo claro */
+  color: #000;               /* texto preto */
+  border: 1px solid #007BFF; /* borda azul */
   text-align: left;
   border-radius: 6px;
   padding: 10px;
   position: absolute;
   z-index: 1;
-  top: 100%;   /* aparece abaixo do link */
+  top: 100%;   /* aparece logo abaixo do link */
   left: 50%;
   margin-left: -150px;
   transition: opacity 0.3s;
   font-size: 14px;
 }
 
-/* Setinha apontando para cima */
-.tooltip {
+/* Setinha azul apontando para cima */
+.tooltip::after {
+  content: "";
   position: absolute;
-  top: 100%;   /* aparece logo abaixo do link */
+  bottom: 100%;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #007BFF transparent;
 }
+
 
  
 /* Mostrar tooltip ao passar o mouse */
