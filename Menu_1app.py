@@ -34,11 +34,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown(
-    "<a class='menu-button blue' href='https://conrepass-frhucxskkdgmt2hxuq4kju.streamlit.app/' target='_blank'>📊 Transferências Discricionárias (convênios/Contratos de repasses)</a>",
+    "<a class='menu-button blue' href='https://conrepass-frhucxskkdgmt2hxuq4kju.streamlit.app/' target='_blank'>📊 Transferências Discricionárias e Legais (convênios/repasses)</a>",
     unsafe_allow_html=True
 )
 st.markdown(
-    "<a class='menu-button gray' href='https://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/' target='_blank'>📑 Consultar Cadastro de Secretarias de Saúde-Fundos de Saúde - PB</a>",
+    "<a class='menu-button gray' href='https://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/' target='_blank'>📑 Cadastro de Secretarias de Saúde - Fundos de Saúde - PB</a>",
     unsafe_allow_html=True
 )
 
