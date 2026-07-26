@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("📂 Menu Principal - App's")
-st.write("Selecione abaixo o programa que deseja abrir:")
+st.write("Selecione abaixo o aplicativo que deseja abrir:")
 
 # CSS para estilizar os botões com fundo escuro e texto azul claro
 st.markdown(
