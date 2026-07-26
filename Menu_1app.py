@@ -1,25 +1,7 @@
 import streamlit as st
 
-# CSS para reduzir largura da barra de senha e ajustar mensagens
-st.markdown(
-    """
-    <style>
-    /* Campo de senha mais curto */
-    input[type="password"] {
-        width: 150px !important;
-    }
-    /* Mensagem de aviso mais discreta */
-    .stAlert {
-        font-size: 13px;
-        padding: 0.4rem;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 # Senha fixa
-senha_correta = "Ditre123"
+senha_correta = "dit"
 senha = st.text_input("Digite a senha para acessar:", type="password")
 
 if senha == senha_correta:
