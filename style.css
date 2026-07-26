@@ -12,21 +12,26 @@ a {
 .tooltip {
   visibility: hidden;
   opacity: 0;
-  width: 300px;
-  background-color: #f9f9f9; /* fundo claro */
+  width: 320px;
+  background-color: #ffffcc; /* fundo amarelo claro */
   color: #000;               /* texto preto */
-  border: 1px solid #007BFF; /* borda azul */
+  border: 1px solid #333;    /* borda escura */
   text-align: left;
   border-radius: 6px;
   padding: 10px;
   position: absolute;
-  z-index: 1;
-  top: 100%;   /* aparece logo abaixo do link */
-  left: 50%;
-  margin-left: -150px;
+  z-index: 9999;             /* força ficar acima de tudo */
+  top: 30px;                 /* aparece logo abaixo do link */
+  left: 0;                   /* alinhado à esquerda do link */
   transition: opacity 0.3s;
   font-size: 14px;
 }
+
+a:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 /* Setinha azul apontando para cima */
 .tooltip::after {
