@@ -38,7 +38,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown(
-    "<a class='menu-button gray' href='https://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/' target='_blank'>📑 Consultar Cadastro de Secretarias de Saúde</a>",
+    "<a class='menu-button gray' href='https://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/' target='_blank'>📑 Consultar Cadastro de Secretarias de Saúde-PB</a>",
     unsafe_allow_html=True
 )
 
