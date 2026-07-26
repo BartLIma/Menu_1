@@ -30,15 +30,15 @@ st.markdown(
 
 # Botões coloridos abrindo em nova guia
 st.markdown(
-    "<a class='menu-button green' href='https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/' target='_blank'>🔍 Consultar Equipamentos Lista Renem MS/FNS</a>",
+    "<a class='menu-button green' href='https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/' target='_blank'>🔍 Equipamentos Médico-Hospitalares - Lista Renem MS/FNS 03/2026</a>",
     unsafe_allow_html=True
 )
 st.markdown(
-    "<a class='menu-button blue' href='https://conrepass-frhucxskkdgmt2hxuq4kju.streamlit.app/' target='_blank'>📊 Consultar Transferências (convênios ou contratos de repasse)</a>",
+    "<a class='menu-button blue' href='https://conrepass-frhucxskkdgmt2hxuq4kju.streamlit.app/' target='_blank'>📊 Transferências Discricionárias (convênios/Contrato de repasse)</a>",
     unsafe_allow_html=True
 )
 st.markdown(
-    "<a class='menu-button gray' href='https://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/' target='_blank'>📑 Consultar Cadastro de Secretarias de Saúde-PB</a>",
+    "<a class='menu-button gray' href='https://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/' target='_blank'>📑 Consultar Cadastro de Secretarias de Saúde-Fundos de Saúde - PB</a>",
     unsafe_allow_html=True
 )
 
