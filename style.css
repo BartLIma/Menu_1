@@ -20,7 +20,7 @@ a {
   padding: 10px;
   position: absolute;
   z-index: 1;
-  top: 125%;   /* aparece abaixo do link */
+  top: 90%;   /* aparece abaixo do link */
   left: 50%;
   margin-left: -150px;
   transition: opacity 0.3s;
