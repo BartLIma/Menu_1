@@ -20,7 +20,7 @@ a {
   padding: 10px;
   position: absolute;
   z-index: 1;
-  top: 90%;   /* aparece abaixo do link */
+  top: 100%;   /* aparece abaixo do link */
   left: 50%;
   margin-left: -150px;
   transition: opacity 0.3s;
@@ -28,17 +28,14 @@ a {
 }
 
 /* Setinha apontando para cima */
-.tooltip::after {
-  content: "";
+.tooltip {
   position: absolute;
-  bottom: 100%; /* seta acima da caixa */
+  top: 100%;   /* aparece logo abaixo do link */
   left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent #333 transparent;
+  margin-left: -150px;
 }
 
+ 
 /* Mostrar tooltip ao passar o mouse */
 a:hover .tooltip {
   visibility: visible;
