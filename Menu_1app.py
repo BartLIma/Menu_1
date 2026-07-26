@@ -30,7 +30,7 @@ st.markdown(
 
 # Botões coloridos abrindo em nova guia
 st.markdown(
-    "<a class='menu-button green' href='https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/' target='_blank'>🔍 Equipamentos  Médico-Hospitalares - (Lista Renem)</a>",
+    "<a class='menu-button green' href='https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/' target='_blank'>🔍 Equipamentos  Médico-Hospitalares  (Lista Renem)</a>",
     unsafe_allow_html=True
 )
 st.markdown(
