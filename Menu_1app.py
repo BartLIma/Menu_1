@@ -30,7 +30,7 @@ st.markdown(
 
 # Botões coloridos abrindo em nova guia
 st.markdown(
-    "<a class='menu-button green' href='https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/' target='_blank'>🔍 Equipamentos Médico-Hospitalares - Lista Renem MS</a>",
+    "<a class='menu-button green' href='https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/' target='_blank'>🔍 Equipamentos  Médico-Hospitalares - Lista Renem</a>",
     unsafe_allow_html=True
 )
 st.markdown(
@@ -38,7 +38,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown(
-    "<a class='menu-button gray' href='https://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/' target='_blank'>📑 Cadastro de Secretarias de Saúde-Fundos de Saúde - PB</a>",
+    "<a class='menu-button gray' href='https://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/' target='_blank'>📑 Cadastro de Secretarias de Saúde-Fundos de Saúde</a>",
     unsafe_allow_html=True
 )
 
