@@ -8,15 +8,12 @@ st.write("Selecione na barra lateral o aplicativo que deseja abrir:")
 st.sidebar.title("📂 Menu Principal - App's")
 st.sidebar.write("Escolha abaixo:")
 
-# Menu lateral com botões
-if st.sidebar.button("🔍 Equipamentos Médico-Hospitalares (Lista Renem.)"):
-    st.header("🔍 Equipamentos Médico-Hospitalares (Lista Renem.)")
-    st.write("Abrindo módulo de equipamentos...")
-
-if st.sidebar.button("📊 Transferências Discricionárias e Legais (convênios)"):
-    st.header("📊 Transferências Discricionárias e Legais (convênios)")
-    st.write("Abrindo módulo de transferências...")
-
-if st.sidebar.button("📑 Cadastro de Secretarias de Saúde-Fundos de Saúde"):
-    st.header("📑 Cadastro de Secretarias de Saúde-Fundos de Saúde")
-    st.write("Abrindo módulo de cadastro...")
+# Links clicáveis na barra lateral
+st.sidebar.markdown(
+    """
+    🔍 [Equipamentos Médico-Hospitalares (Lista Renem.)](https://seu-link-renem.com)  
+    📊 [Transferências Discricionárias e Legais (convênios)](https://seu-link-transferencias.com)  
+    📑 [Cadastro de Secretarias de Saúde-Fundos de Saúde](https://seu-link-cadastro.com)  
+    """,
+    unsafe_allow_html=True
+)
