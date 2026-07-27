@@ -11,12 +11,12 @@ st.sidebar.write("Escolha abaixo:")
 # Botões com links externos
 st.sidebar.markdown(
     """
-    <a href="https://seu-link-renem.com" target="_blank">
+    <a href="https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/"_blank">
         <button style="width:100%; padding:10px; margin-bottom:10px;">
             🔍 Equipamentos Médico-Hospitalares (Lista Renem.)
         </button>
     </a>
-    <a href="https://seu-link-transferencias.com" target="_blank">
+    <a href="https://conrepass-frhucxskkdgmt2hxuq4kju.streamlit.app/" target="_blank">
         <button style="width:100%; padding:10px; margin-bottom:10px;">
             📊 Transferências Discricionárias e Legais (convênios)
         </button>
