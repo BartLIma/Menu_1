@@ -8,12 +8,24 @@ st.write("Selecione na barra lateral o aplicativo que deseja abrir:")
 st.sidebar.title("📂 Menu Principal - App's")
 st.sidebar.write("Escolha abaixo:")
 
-# Links clicáveis na barra lateral
+# Botões com links externos
 st.sidebar.markdown(
     """
-    🔍 [Equipamentos Médico-Hospitalares (Lista Renem.)](https://seu-link-renem.com)  
-    📊 [Transferências Discricionárias e Legais (convênios)](https://seu-link-transferencias.com)  
-    📑 [Cadastro de Secretarias de Saúde-Fundos de Saúde](https://seu-link-cadastro.com)  
+    <a href="https://seu-link-renem.com" target="_blank">
+        <button style="width:100%; padding:10px; margin-bottom:10px;">
+            🔍 Equipamentos Médico-Hospitalares (Lista Renem.)
+        </button>
+    </a>
+    <a href="https://seu-link-transferencias.com" target="_blank">
+        <button style="width:100%; padding:10px; margin-bottom:10px;">
+            📊 Transferências Discricionárias e Legais (convênios)
+        </button>
+    </a>
+    <a href="https://seu-link-cadastro.com" target="_blank">
+        <button style="width:100%; padding:10px; margin-bottom:10px;">
+            📑 Cadastro de Secretarias de Saúde-Fundos de Saúde
+        </button>
+    </a>
     """,
     unsafe_allow_html=True
 )
