@@ -11,7 +11,7 @@ st.sidebar.write("Escolha abaixo:")
 # Botões com links externos
 st.sidebar.markdown(
     """
-    <a href="https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/"_blank">
+    <a href="https://consequip-yg7w8sxbuqujhvu7spyntb.streamlit.app/" target="_blank">
         <button style="width:100%; padding:10px; margin-bottom:10px;">
             🔍 Equipamentos Médico-Hospitalares (Lista Renem.)
         </button>
@@ -21,7 +21,7 @@ st.sidebar.markdown(
             📊 Transferências Discricionárias e Legais (convênios)
         </button>
     </a>
-    <a href="https://seu-link-cadastro.com" target="_blank">
+    <a href="hhttps://semuspb-z2u4ydkkdznpwuchwyau6f.streamlit.app/" target="_blank">
         <button style="width:100%; padding:10px; margin-bottom:10px;">
             📑 Cadastro de Secretarias de Saúde-Fundos de Saúde
         </button>
