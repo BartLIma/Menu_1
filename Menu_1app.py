@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Título principal na área central
-st.title("📂 Menu Principal - App's")
+st.title("📂 Aplicativos Gestão e Monitoramento de Transferênias")
 st.write("Selecione na barra lateral o aplicativo que deseja abrir:")
 
 # Barra lateral
